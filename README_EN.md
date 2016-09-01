@@ -2,11 +2,11 @@
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 
-# Repo for MSDN & TechNet Library Spanish-speaking community project (formerly known as MINITEL)
+# Repo for MSDN & TechNet Library Brazilian Portuguese-speaking community project (formerly known as MINITEL)
 
 
 You've found the GitHub repository that houses the source for the technical documentation that is published
- to the Community Content Project at https://msdn.microsoft.com/es-es/communitydocs.
+ to the Community Content Project.
  
 ##Ways to contribute
 You can contribute to the Community Content Project in a few different ways:
@@ -79,7 +79,7 @@ For the following sorts of work, we strongly recommend you install and learn to 
 ##Permissions in GitHub
 
 Anybody with a GitHub account can contribute to Community Content project through our public repository at 
-https://github.com/Microsoft/CommunityDocs-eses. No special permissions are required.
+https://github.com/Microsoft/CommunityDocs-ptbr. No special permissions are required.
 
 
 
