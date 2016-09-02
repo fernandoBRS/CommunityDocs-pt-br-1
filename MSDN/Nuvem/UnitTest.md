@@ -1,10 +1,10 @@
 ---
-title: Qué es un unit test
-description: Qué es un unit test
-author: MSCommunityPubService
-ms.date: 06/01/2016
+title: Crie um Experimento com o Azure Machine Learning
+description: A Microsoft tem disponível aos assinantes do Azure uma máquina de aprendizado, chamada de Azure Machine Learning, o qual permite simular uma infinidade de cenários estatísticos a partir de uma base de dados. O objetivo deste artigo é guia-los passo a passo na montagem de um experimento através da aplicação de um modelo de regressão linear.
+author: Renato Haddad
+ms.date: 09/02/2016
 ms.topic: how-to-article
-ms.service: ALM
+ms.service: Azure ML
 ms.custom: CommunityDocs
 ---
 
@@ -13,21 +13,17 @@ ms.custom: CommunityDocs
 
 
 
-#Qué es un unit test
+#Crie um Experimento com o Azure Machine Learning
 
 
-##**Diego Rojas**
-**MCTS WCF 3.5 - MCTS Biztalk - MCTS Data Access**
-Mayo 2012
+##**Renato Haddad**
+**MVP ASP.NET /MCP/MCTS/MCPD/RD**
+Novembro, 2015
 
-[Blog](http://icomparable.blogspot.mx/)
+[Blog](http://weblogs.asp.net/renatohaddad/)
 
 
-Existen muchas definiciones acerca de lo que realmente es una prueba
-unitaria – unit test – sin embargo algunas son ambiguas y otras tienen
-un enfoque determinado de acuerdo a la situación en que se utilizan o se
-desarrollan. En este post vamos a tratar de caracterizar más que definir
-que es una prueba unitaria.
+A Microsoft tem disponível aos assinantes do Azure uma máquina de aprendizado, chamada de Azure Machine Learning, o qual permite simular uma infinidade de cenários estatísticos a partir de uma base de dados. O objetivo deste artigo é guia-los passo a passo na montagem de um experimento através da aplicação de um modelo de regressão linear.
 
 Identificar un Unit Test
 ------------------------
