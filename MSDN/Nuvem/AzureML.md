@@ -27,6 +27,8 @@ A Microsoft tem disponível aos assinantes do Azure uma máquina de aprendizado,
 
 Tudo começa em https://studio.azureml.net, conforme a figura 1, o qual você deverá se logar com sua conta da Microsoft.
 
+![](./img/pic001.png)
+
 Un unit test es un método que prueba una unidad de código. Al hablar de
 una unidad de código nos referimos a un requerimiento. Muchos
 desarrolladores tienen su propio concepto de lo que es una prueba
