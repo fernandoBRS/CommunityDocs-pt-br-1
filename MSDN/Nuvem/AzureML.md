@@ -29,45 +29,39 @@ Tudo começa em https://studio.azureml.net, conforme a figura 1, o qual você de
 
 ![](./img/pic001.png)
 
-Un unit test es un método que prueba una unidad de código. Al hablar de
-una unidad de código nos referimos a un requerimiento. Muchos
-desarrolladores tienen su propio concepto de lo que es una prueba
-unitaria; sin embargo, la gran mayoría coincide en que una prueba
-unitaria tiene las siguientes características:
+Figura 1 – Tela inicial do Azure Machine Learning
 
-- Prueba solamente pequeñas cantidades de código: Solamente prueba el
-    código del requerimiento específico.
+Toda a interface é online, não há nada offline ou local, então na lista de menu na barra superior, você tem a opção chamada Studio (estúdio). Clique nela para acessar a ferramenta, sendo que quando o acesso é feito pela primeira vez ou navega na página principal, é exibida uma janela convidando para um vídeo passo a passo com 5 fases, assim terá uma visão geral. Cabe a você aceitar ou não, eu acho válido para um primeiro contato com o Studio.
 
--  Se aísla de otro código y de otros desarrolladores: El unit test
-    prueba exclusivamente el código relacionado con el requerimiento y
-    no interfiere con el trabajo hecho por otros desarrolladores.
+A figura 2 mostra a ferramenta Studio com os módulos existentes, os quais descreverei a seguir a funcionalidade de cada um. Esta ferramenta é colaborativa com recursos de arrastar e soltar, configurar propriedades onde você cria, testa e implanta soluções de análise preditiva de dados.
 
--    Solamente se prueban los endpoints públicos: Esto principalmente
-    porque los disparadores de los métodos privados son métodos públicos
-    por lo tanto se abarca el código de los métodos privados dentro de
-    las pruebas.
+![](./img/pic002.png)
 
--    Los resultados son automatizados: Cuando ejecutamos las pruebas lo
-    podemos hacer de forma individual o de forma grupal. Estas pruebas
-    las hace el motor de prueba y los resultados de los mismos deben de
-    ser precisos con respecto a cada prueba unitaria desarrollada
+Figura 2 – Módulos existentes
 
--    Repetible y predecible: No importa el orden y las veces que se
-    repita la prueba, el resultado siempre debe de ser el mismo.
+O que contém cada módulo? Vou listar e comentar os 6 módulos disponíveis atualmente.
 
--    Son rápidos de desarrollar: Contrariamente a lo que piensan los
-    desarrolladores –&gt; que el desarrollo de pruebas unitarias quita
-    tiempo – los unit test por lo general deben de ser simples y rápidos
-    de desarrollar. Difícilmente una prueba unitaria deba de tomar más
-    de cinco minutos en su desarrollo.
+EXPERIMENTS – é o local onde você cria os experimentos / testes, arrasta componentes para conectá-los a outros, preparar os dados, caso necessário, aplicar modelos para treinar, pontuar, testar e avaliar o experimento, conforme a figura 3.
 
-Ejemplo
--------
+![](./img/pic003.png)
 
-Para entender mejor que es una prueba unitaria vamos a proceder a hacer
-un ejemplo. Supongamos que tenemos un método que nos indica si en un
-arreglo de strings existe al menos un string que sea igual a la palabra
-que estamos pasando por parámetro. El código del método es el siguiente:
+Figura 3 – Tela de Experimentos
+
+WEB SERVICES – lista de testes publicados que podem ser acessados via Web API ou ferramentas de BI como Excel, através de um token gerado de acordo com a sua conta.
+
+NOTEBOOKS – lista de códigos criados em phyton para auxiliar customizações dos dados nos componentes, conforme a figura 4.
+
+![](./img/pic004.png)
+
+Figura 4 – Código do notebook
+
+DATASETS – lista das fontes de dados que você importou ou fez uso das diversas fontes online disponíveis no próprio Studio. Neste artigo usaremos uma fonte online.
+
+TRAINED MODELS – lista de testes treinados por você a serem aplicados nos componentes.
+
+SETTINGS – dados da sua conta, percentual usado, tokens a serem distribuídos e lista de usuários com acesso aos testes e resultados.
+
+
 
 ``` C#
 
