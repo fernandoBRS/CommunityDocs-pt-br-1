@@ -28,7 +28,7 @@ O WAP é um portal (Self-Service) baseado no portal do Windows Azure e tem como 
 ![](./img/pic022.png)
 
 O WAP nos fornece a principio dois portais, um para os administradores e outro para os usuarios finais (Tenants).
-•Portal do Cliente (Tenant Portal) – Permite ao cliente provisionar, monitorar e gerenciar serviços, como Sites, Máquinas Virtuais e Service Bus. Estes e outros serviços estão descritos mais abaixo neste artigo.
+* Portal do Cliente (Tenant Portal) – Permite ao cliente provisionar, monitorar e gerenciar serviços, como Sites, Máquinas Virtuais e Service Bus. Estes e outros serviços estão descritos mais abaixo neste artigo.
 
 
 ![](./img/pic022.png)
